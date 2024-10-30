@@ -35,9 +35,8 @@ let postWebhook = (req, res) => {
     res.sendStatus(404);
   }
 };
-
 // Handles messages events
-function handleMessage(sender_psid, received_message) {}g
+function handleMessage(sender_psid, received_message) {}
 
 // Handles messaging_postbacks events
 function handlePostback(sender_psid, received_postback) {}
